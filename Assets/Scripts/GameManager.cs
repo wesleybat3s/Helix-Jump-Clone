@@ -10,16 +10,8 @@ public class GameManager : MonoBehaviour
     private int score;
 
     [SerializeField] TMP_Text scoreText;
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
+   
+    
     public void GameScore(int ringScore)
     {
         score += ringScore;
